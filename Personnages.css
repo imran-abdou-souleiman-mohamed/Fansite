@@ -1,0 +1,162 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    }
+    body {
+        font-family: 'Bahnschrift SemiBold';
+    }
+    header {
+        height: 100vh;
+        width: 100vw;
+        background-image: url('https://www.dexerto.fr/cdn-cgi/image/width=3840,quality=75,format=auto/https://s3.eu-west-3.amazonaws.com/dexertofr-assets-production-dda5f020/uploads/2020/06/04104118/valorant-agents.jpg');
+        background-size: cover;
+    }
+    .navbar{
+        position: absolute;
+        padding: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .navbar a {
+        color: white;
+    }
+    .navbar a:hover {
+        color: red;
+    }
+    .navbar .Fansitev{
+        font-size: 2em
+    }
+    .navbar .Menu ul{
+       display: flex;
+    }
+    .navbar .Menu ul li{
+        margin: 0 25px;
+    }
+    .navbar .Menu ul li.Persoc a {
+        color: red;
+        font-weight: 900;
+    }
+    .navbar .BarreM{
+        display: none;
+        position: absolute;
+        top: 50px;
+        right: 50;
+        width: 25px;
+        height: 25px;
+        align-items: right;
+    }  
+    
+    
+    @media screen and (max-width: 900px) {
+        .navbar {
+            padding: 0%;
+        }
+        .navbar .Fansitev{
+            position: absolute;
+            top: 50px;
+            left: 50px;
+        }
+    
+        .navbar .BarreM{
+            display: block;
+            display: flex;
+            align-items: right;
+        }
+        .Menu {
+            top: 0;
+            left: 0;
+            position: absolute;
+            background-color: rgba(255,255,255,0.20);
+            backdrop-filter: blur(7px);
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .Menu ul {
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+        }  
+        .navbar .Menu ul li {
+            margin: 25px 0;
+            font-size: 1.2em;
+        }
+    
+    }
+    
+    .borderr{
+        background-color: black;
+        border: radius 2px solid;
+    
+    }
+    .imgPegi{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+    .imgPegi{
+        padding-left: 220px;
+    }
+    .ReseauS{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .Conntact{
+        color: white;
+    }
+    .corps-formulaire{
+        color: white;
+    }
+    .container{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 100px 50px;
+        padding: 100px 50px;
+    }
+    .container .card{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 350px;
+        height: 300px;
+        background-color: white;
+        border-radius: 20px;
+        bow-shadow: 0 35px 80px rgba(0,0,0,0.15);
+        transition: 0.6s;
+        
+    }
+    .container .card:hover{
+        height: 400px;
+    }
+    .container .card .imgx{
+        position: absolute;
+        top: 20px;
+        width: 300px;
+        height: 200px;
+        background: #333;
+        border-radius: 12px;
+        transition: scale(1.3);
+        z-index: 2;
+    }
+    .container .card .imgx{
+        top: -90px;
+        scale: 0,70;
+        box-shadow: 0 15px 45px rgba(0,0,0,0.15)
+    }
+    
+    
