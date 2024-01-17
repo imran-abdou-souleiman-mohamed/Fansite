@@ -95,8 +95,7 @@
     
     .borderr{
         background-color: black;
-        border: radius 2px solid;
-    
+        border: 2px solid;
     }
     .imgPegi{
         display: flex;
