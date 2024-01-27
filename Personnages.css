@@ -157,5 +157,17 @@
         scale: 0,70;
         box-shadow: 0 15px 45px rgba(0,0,0,0.15)
     }
-    
-    
+    .container .card .content{
+        position: absolute;
+        top: 150px;
+        width: 120%;
+        padding: 0 30px;
+        height: 35px;
+        overflow: hidden;
+        text-align: center;
+        transition: 0.5s;
+    }
+    .container .card:hover .content{
+        top: 130;
+        height: 250px;
+    }
